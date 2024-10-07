@@ -23,5 +23,14 @@ Dataset from [Kaggle](https://www.kaggle.com/datasets/faviovaz/marketing-ab-test
    - P-value: < 0.0001
 
 2. **A/B Test**
-   - 95% confidence intervals calculated for both groups
-   - Clear separation between control and treatment groups
+   - Lift: 43.09%
+   - P-value: < 0.0001
+   - Statistically Significant: Yes
+
+### Visualization
+Two main visualizations were created:
+- Sampling distribution under null hypothesis with observed difference
+![sampling distribution under null hypothesis](https://github.com/user-attachments/assets/4423f16b-d4c1-408c-97c6-9626a7014f8b)
+
+- Conversion rates comparison with 95% confidence intervals
+![conversions with 95% confidence intervals](https://github.com/user-attachments/assets/54865626-2b09-406c-be8f-e3ae431cf548)
